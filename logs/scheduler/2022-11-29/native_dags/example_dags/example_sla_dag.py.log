@@ -1,0 +1,42 @@
+[2022-11-29 06:32:30,391] {processor.py:163} INFO - Started process (PID=56838) to work on /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-11-29 06:32:30,391] {processor.py:642} INFO - Processing file /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-11-29 06:32:30,392] {logging_mixin.py:109} INFO - [2022-11-29 06:32:30,392] {dagbag.py:500} INFO - Filling up the DagBag from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-11-29 06:32:30,433] {processor.py:654} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-11-29 06:32:30,447] {logging_mixin.py:109} INFO - [2022-11-29 06:32:30,447] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-29 06:32:30,456] {logging_mixin.py:109} INFO - [2022-11-29 06:32:30,456] {dag.py:2935} INFO - Setting next_dagrun for example_sla_dag to 2022-11-29T01:00:00+00:00
+[2022-11-29 06:32:30,463] {processor.py:171} INFO - Processing /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.073 seconds
+[2022-11-29 06:33:54,092] {processor.py:163} INFO - Started process (PID=57068) to work on /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-11-29 06:33:54,093] {processor.py:642} INFO - Processing file /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-11-29 06:33:54,093] {logging_mixin.py:109} INFO - [2022-11-29 06:33:54,093] {dagbag.py:500} INFO - Filling up the DagBag from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-11-29 06:33:54,145] {processor.py:654} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-11-29 06:33:54,165] {logging_mixin.py:109} INFO - [2022-11-29 06:33:54,164] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-29 06:33:54,178] {logging_mixin.py:109} INFO - [2022-11-29 06:33:54,178] {dag.py:2935} INFO - Setting next_dagrun for example_sla_dag to 2022-11-29T01:00:00+00:00
+[2022-11-29 06:33:54,185] {processor.py:171} INFO - Processing /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.094 seconds
+[2022-11-29 06:35:17,238] {processor.py:163} INFO - Started process (PID=57135) to work on /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-11-29 06:35:17,239] {processor.py:642} INFO - Processing file /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-11-29 06:35:17,239] {logging_mixin.py:109} INFO - [2022-11-29 06:35:17,239] {dagbag.py:500} INFO - Filling up the DagBag from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-11-29 06:35:17,284] {processor.py:654} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-11-29 06:35:17,300] {logging_mixin.py:109} INFO - [2022-11-29 06:35:17,300] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-29 06:35:17,312] {logging_mixin.py:109} INFO - [2022-11-29 06:35:17,312] {dag.py:2935} INFO - Setting next_dagrun for example_sla_dag to 2022-11-29T01:02:00+00:00
+[2022-11-29 06:35:17,318] {processor.py:171} INFO - Processing /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.081 seconds
+[2022-11-29 06:36:30,119] {processor.py:163} INFO - Started process (PID=57183) to work on /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-11-29 06:36:30,121] {processor.py:642} INFO - Processing file /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-11-29 06:36:30,121] {logging_mixin.py:109} INFO - [2022-11-29 06:36:30,121] {dagbag.py:500} INFO - Filling up the DagBag from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-11-29 06:36:30,166] {processor.py:654} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-11-29 06:36:30,182] {logging_mixin.py:109} INFO - [2022-11-29 06:36:30,182] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-29 06:36:30,194] {logging_mixin.py:109} INFO - [2022-11-29 06:36:30,194] {dag.py:2935} INFO - Setting next_dagrun for example_sla_dag to 2022-11-29T01:04:00+00:00
+[2022-11-29 06:36:30,200] {processor.py:171} INFO - Processing /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.082 seconds
+[2022-11-29 06:37:47,804] {processor.py:163} INFO - Started process (PID=57234) to work on /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-11-29 06:37:47,806] {processor.py:642} INFO - Processing file /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-11-29 06:37:47,806] {logging_mixin.py:109} INFO - [2022-11-29 06:37:47,806] {dagbag.py:500} INFO - Filling up the DagBag from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-11-29 06:37:47,839] {processor.py:654} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-11-29 06:37:47,848] {logging_mixin.py:109} INFO - [2022-11-29 06:37:47,848] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-29 06:37:47,856] {logging_mixin.py:109} INFO - [2022-11-29 06:37:47,856] {dag.py:2935} INFO - Setting next_dagrun for example_sla_dag to 2022-11-29T01:04:00+00:00
+[2022-11-29 06:37:47,865] {processor.py:171} INFO - Processing /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.062 seconds
+[2022-11-29 06:38:53,491] {processor.py:163} INFO - Started process (PID=57269) to work on /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-11-29 06:38:53,491] {processor.py:642} INFO - Processing file /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2022-11-29 06:38:53,492] {logging_mixin.py:109} INFO - [2022-11-29 06:38:53,492] {dagbag.py:500} INFO - Filling up the DagBag from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-11-29 06:38:53,523] {processor.py:654} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2022-11-29 06:38:53,533] {logging_mixin.py:109} INFO - [2022-11-29 06:38:53,533] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-29 06:38:53,540] {logging_mixin.py:109} INFO - [2022-11-29 06:38:53,540] {dag.py:2935} INFO - Setting next_dagrun for example_sla_dag to 2022-11-29T01:06:00+00:00
+[2022-11-29 06:38:53,546] {processor.py:171} INFO - Processing /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.055 seconds

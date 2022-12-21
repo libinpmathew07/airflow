@@ -1,0 +1,30 @@
+[[34m2022-11-29 10:37:08,110[0m] {[34mscheduler_job.py:[0m596} INFO[0m - Starting the scheduler[0m
+[[34m2022-11-29 10:37:08,111[0m] {[34mscheduler_job.py:[0m601} INFO[0m - Processing each file at most -1 times[0m
+[[34m2022-11-29 10:37:08,118[0m] {[34mmanager.py:[0m163} INFO[0m - Launched DagFileProcessorManager with pid: 66607[0m
+[[34m2022-11-29 10:37:08,120[0m] {[34mscheduler_job.py:[0m1114} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-11-29 10:37:09,639[0m] {[34msettings.py:[0m52} INFO[0m - Configured default timezone Timezone('UTC')[0m
+[2022-11-29 10:37:09,643] {manager.py:441} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2 ) when using sqlite. So we set parallelism to 1.
+[[34m2022-11-29 10:42:09,050[0m] {[34mscheduler_job.py:[0m1114} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-11-29 10:47:09,810[0m] {[34mscheduler_job.py:[0m1114} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-11-29 10:52:10,898[0m] {[34mscheduler_job.py:[0m1114} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-11-29 10:57:12,221[0m] {[34mscheduler_job.py:[0m1114} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-11-29 11:02:12,664[0m] {[34mscheduler_job.py:[0m1114} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-11-29 11:07:13,094[0m] {[34mscheduler_job.py:[0m1114} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-11-29 11:12:14,415[0m] {[34mscheduler_job.py:[0m1114} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-11-29 11:17:15,713[0m] {[34mscheduler_job.py:[0m1114} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-11-29 11:22:15,856[0m] {[34mscheduler_job.py:[0m1114} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-11-29 11:27:16,309[0m] {[34mscheduler_job.py:[0m1114} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-11-29 11:32:16,801[0m] {[34mscheduler_job.py:[0m1114} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-11-29 11:51:33,927[0m] {[34mscheduler_job.py:[0m1114} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-11-29 11:56:34,951[0m] {[34mscheduler_job.py:[0m1114} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-11-29 12:01:35,976[0m] {[34mscheduler_job.py:[0m1114} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-11-29 13:02:17,324[0m] {[34mscheduler_job.py:[0m1114} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-11-29 13:07:19,014[0m] {[34mscheduler_job.py:[0m1114} INFO[0m - Resetting orphaned tasks for active dag runs[0m
+[[34m2022-11-29 13:07:47,697[0m] {[34mscheduler_job.py:[0m161} INFO[0m - Exiting gracefully upon receiving signal 15[0m
+[[34m2022-11-29 13:07:47,988[0m] {[34mprocess_utils.py:[0m120} INFO[0m - Sending Signals.SIGTERM to group 66607. PIDs of all processes in the group: [][0m
+[[34m2022-11-29 13:07:47,989[0m] {[34mprocess_utils.py:[0m75} INFO[0m - Sending the signal Signals.SIGTERM to group 66607[0m
+[[34m2022-11-29 13:07:47,989[0m] {[34mprocess_utils.py:[0m89} INFO[0m - Sending the signal Signals.SIGTERM to process 66607 as process group is missing.[0m
+[[34m2022-11-29 13:07:48,002[0m] {[34mprocess_utils.py:[0m120} INFO[0m - Sending Signals.SIGTERM to group 66607. PIDs of all processes in the group: [][0m
+[[34m2022-11-29 13:07:48,003[0m] {[34mprocess_utils.py:[0m75} INFO[0m - Sending the signal Signals.SIGTERM to group 66607[0m
+[[34m2022-11-29 13:07:48,003[0m] {[34mprocess_utils.py:[0m89} INFO[0m - Sending the signal Signals.SIGTERM to process 66607 as process group is missing.[0m
+[[34m2022-11-29 13:07:48,004[0m] {[34mscheduler_job.py:[0m655} INFO[0m - Exited execute loop[0m

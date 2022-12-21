@@ -1,0 +1,293 @@
+2022-11-29 06:28:44,894 INFO - Starting the scheduler
+2022-11-29 06:28:44,895 INFO - Processing each file at most -1 times
+2022-11-29 06:28:44,901 INFO - Launched DagFileProcessorManager with pid: 56718
+2022-11-29 06:28:44,903 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 06:29:12,393 INFO - Setting next_dagrun for example_bash_operator to 2022-11-29T00:00:00+00:00
+2022-11-29 06:29:12,428 INFO - 5 tasks up for execution:
+	<TaskInstance: example_bash_operator.runme_0 scheduled__2022-11-28T00:00:00+00:00 [scheduled]>
+	<TaskInstance: example_bash_operator.runme_1 scheduled__2022-11-28T00:00:00+00:00 [scheduled]>
+	<TaskInstance: example_bash_operator.runme_2 scheduled__2022-11-28T00:00:00+00:00 [scheduled]>
+	<TaskInstance: example_bash_operator.also_run_this scheduled__2022-11-28T00:00:00+00:00 [scheduled]>
+	<TaskInstance: example_bash_operator.this_will_skip scheduled__2022-11-28T00:00:00+00:00 [scheduled]>
+2022-11-29 06:29:12,430 INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 5 task instances ready to be queued
+2022-11-29 06:29:12,431 INFO - DAG example_bash_operator has 0/16 running and queued tasks
+2022-11-29 06:29:12,431 INFO - DAG example_bash_operator has 1/16 running and queued tasks
+2022-11-29 06:29:12,432 INFO - DAG example_bash_operator has 2/16 running and queued tasks
+2022-11-29 06:29:12,432 INFO - DAG example_bash_operator has 3/16 running and queued tasks
+2022-11-29 06:29:12,433 INFO - DAG example_bash_operator has 4/16 running and queued tasks
+2022-11-29 06:29:12,433 INFO - Setting the following tasks to queued state:
+	<TaskInstance: example_bash_operator.runme_0 scheduled__2022-11-28T00:00:00+00:00 [scheduled]>
+	<TaskInstance: example_bash_operator.runme_1 scheduled__2022-11-28T00:00:00+00:00 [scheduled]>
+	<TaskInstance: example_bash_operator.runme_2 scheduled__2022-11-28T00:00:00+00:00 [scheduled]>
+	<TaskInstance: example_bash_operator.also_run_this scheduled__2022-11-28T00:00:00+00:00 [scheduled]>
+	<TaskInstance: example_bash_operator.this_will_skip scheduled__2022-11-28T00:00:00+00:00 [scheduled]>
+2022-11-29 06:29:12,435 INFO - Sending TaskInstanceKey(dag_id='example_bash_operator', task_id='runme_0', run_id='scheduled__2022-11-28T00:00:00+00:00', try_number=1) to executor with priority 3 and queue default
+2022-11-29 06:29:12,435 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'example_bash_operator', 'runme_0', 'scheduled__2022-11-28T00:00:00+00:00', '--local', '--subdir', '/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py']
+2022-11-29 06:29:12,436 INFO - Sending TaskInstanceKey(dag_id='example_bash_operator', task_id='runme_1', run_id='scheduled__2022-11-28T00:00:00+00:00', try_number=1) to executor with priority 3 and queue default
+2022-11-29 06:29:12,436 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'example_bash_operator', 'runme_1', 'scheduled__2022-11-28T00:00:00+00:00', '--local', '--subdir', '/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py']
+2022-11-29 06:29:12,437 INFO - Sending TaskInstanceKey(dag_id='example_bash_operator', task_id='runme_2', run_id='scheduled__2022-11-28T00:00:00+00:00', try_number=1) to executor with priority 3 and queue default
+2022-11-29 06:29:12,437 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'example_bash_operator', 'runme_2', 'scheduled__2022-11-28T00:00:00+00:00', '--local', '--subdir', '/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py']
+2022-11-29 06:29:12,438 INFO - Sending TaskInstanceKey(dag_id='example_bash_operator', task_id='also_run_this', run_id='scheduled__2022-11-28T00:00:00+00:00', try_number=1) to executor with priority 2 and queue default
+2022-11-29 06:29:12,438 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'example_bash_operator', 'also_run_this', 'scheduled__2022-11-28T00:00:00+00:00', '--local', '--subdir', '/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py']
+2022-11-29 06:29:12,439 INFO - Sending TaskInstanceKey(dag_id='example_bash_operator', task_id='this_will_skip', run_id='scheduled__2022-11-28T00:00:00+00:00', try_number=1) to executor with priority 2 and queue default
+2022-11-29 06:29:12,439 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'example_bash_operator', 'this_will_skip', 'scheduled__2022-11-28T00:00:00+00:00', '--local', '--subdir', '/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py']
+2022-11-29 06:29:12,441 INFO - Executing command: ['airflow', 'tasks', 'run', 'example_bash_operator', 'runme_0', 'scheduled__2022-11-28T00:00:00+00:00', '--local', '--subdir', '/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py']
+2022-11-29 06:31:53,880 INFO - Executing command: ['airflow', 'tasks', 'run', 'example_bash_operator', 'runme_1', 'scheduled__2022-11-28T00:00:00+00:00', '--local', '--subdir', '/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py']
+2022-11-29 06:31:55,445 ERROR - Failed to execute task Command '['airflow', 'tasks', 'run', 'example_bash_operator', 'runme_1', 'scheduled__2022-11-28T00:00:00+00:00', '--local', '--subdir', '/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py']' returned non-zero exit status 1..
+2022-11-29 06:31:55,447 INFO - Executing command: ['airflow', 'tasks', 'run', 'example_bash_operator', 'runme_2', 'scheduled__2022-11-28T00:00:00+00:00', '--local', '--subdir', '/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py']
+2022-11-29 06:31:56,775 ERROR - Failed to execute task Command '['airflow', 'tasks', 'run', 'example_bash_operator', 'runme_2', 'scheduled__2022-11-28T00:00:00+00:00', '--local', '--subdir', '/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py']' returned non-zero exit status 1..
+2022-11-29 06:31:56,777 INFO - Executing command: ['airflow', 'tasks', 'run', 'example_bash_operator', 'also_run_this', 'scheduled__2022-11-28T00:00:00+00:00', '--local', '--subdir', '/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py']
+2022-11-29 06:31:58,100 ERROR - Failed to execute task Command '['airflow', 'tasks', 'run', 'example_bash_operator', 'also_run_this', 'scheduled__2022-11-28T00:00:00+00:00', '--local', '--subdir', '/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py']' returned non-zero exit status 1..
+2022-11-29 06:31:58,102 INFO - Executing command: ['airflow', 'tasks', 'run', 'example_bash_operator', 'this_will_skip', 'scheduled__2022-11-28T00:00:00+00:00', '--local', '--subdir', '/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py']
+2022-11-29 06:31:59,369 ERROR - Failed to execute task Command '['airflow', 'tasks', 'run', 'example_bash_operator', 'this_will_skip', 'scheduled__2022-11-28T00:00:00+00:00', '--local', '--subdir', '/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py']' returned non-zero exit status 1..
+2022-11-29 06:31:59,371 INFO - Executor reports execution of example_bash_operator.runme_0 run_id=scheduled__2022-11-28T00:00:00+00:00 exited with status success for try_number 1
+2022-11-29 06:31:59,372 INFO - Executor reports execution of example_bash_operator.runme_1 run_id=scheduled__2022-11-28T00:00:00+00:00 exited with status failed for try_number 1
+2022-11-29 06:31:59,373 INFO - Executor reports execution of example_bash_operator.runme_2 run_id=scheduled__2022-11-28T00:00:00+00:00 exited with status failed for try_number 1
+2022-11-29 06:31:59,373 INFO - Executor reports execution of example_bash_operator.also_run_this run_id=scheduled__2022-11-28T00:00:00+00:00 exited with status failed for try_number 1
+2022-11-29 06:31:59,374 INFO - Executor reports execution of example_bash_operator.this_will_skip run_id=scheduled__2022-11-28T00:00:00+00:00 exited with status failed for try_number 1
+2022-11-29 06:31:59,382 INFO - TaskInstance Finished: dag_id=example_bash_operator, task_id=runme_0, run_id=scheduled__2022-11-28T00:00:00+00:00, run_start_date=2022-11-29 01:00:43.584835+00:00, run_end_date=2022-11-29 01:01:44.730341+00:00, run_duration=61.145506, state=success, executor_state=success, try_number=1, max_tries=0, job_id=2, pool=default_pool, queue=default, priority_weight=3, operator=BashOperator
+2022-11-29 06:31:59,394 ERROR - DagFileProcessorManager (PID=56718) last sent a heartbeat 167.02 seconds ago! Restarting it
+2022-11-29 06:31:59,405 INFO - Sending Signals.SIGTERM to group 56718. PIDs of all processes in the group: [56718]
+2022-11-29 06:31:59,406 INFO - Sending the signal Signals.SIGTERM to group 56718
+2022-11-29 06:31:59,706 INFO - Process psutil.Process(pid=56718, status='terminated', exitcode=0, started='06:28:44') (56718) terminated with exit code 0
+2022-11-29 06:31:59,712 INFO - Launched DagFileProcessorManager with pid: 56786
+2022-11-29 06:33:46,343 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 06:38:47,655 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 06:39:03,660 ERROR - Exception when executing SchedulerJob._run_scheduler_loop
+Traceback (most recent call last):
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such column: dag.last_parsed_time
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/jobs/scheduler_job.py", line 628, in _execute
+    self._run_scheduler_loop()
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/jobs/scheduler_job.py", line 709, in _run_scheduler_loop
+    num_queued_tis = self._do_scheduling(session)
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/jobs/scheduler_job.py", line 782, in _do_scheduling
+    self._create_dagruns_for_dags(guard, session)
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/utils/retries.py", line 76, in wrapped_function
+    for attempt in run_with_db_retries(max_retries=retries, logger=logger, **retry_kwargs):
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/tenacity/__init__.py", line 382, in __iter__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/tenacity/__init__.py", line 360, in iter
+    raise retry_exc.reraise()
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/tenacity/__init__.py", line 193, in reraise
+    raise self.last_attempt.result()
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/concurrent/futures/_base.py", line 439, in result
+    return self.__get_result()
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/concurrent/futures/_base.py", line 391, in __get_result
+    raise self._exception
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/utils/retries.py", line 85, in wrapped_function
+    return func(*args, **kwargs)
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/jobs/scheduler_job.py", line 847, in _create_dagruns_for_dags
+    self._create_dag_runs(query.all(), session)
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/orm/query.py", line 3373, in all
+    return list(self)
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such column: dag.last_parsed_time
+[SQL: SELECT dag.dag_id AS dag_dag_id, dag.root_dag_id AS dag_root_dag_id, dag.is_paused AS dag_is_paused, dag.is_subdag AS dag_is_subdag, dag.is_active AS dag_is_active, dag.last_parsed_time AS dag_last_parsed_time, dag.last_pickled AS dag_last_pickled, dag.last_expired AS dag_last_expired, dag.scheduler_lock AS dag_scheduler_lock, dag.pickle_id AS dag_pickle_id, dag.fileloc AS dag_fileloc, dag.owners AS dag_owners, dag.description AS dag_description, dag.default_view AS dag_default_view, dag.schedule_interval AS dag_schedule_interval, dag.max_active_tasks AS dag_max_active_tasks, dag.max_active_runs AS dag_max_active_runs, dag.has_task_concurrency_limits AS dag_has_task_concurrency_limits, dag.has_import_errors AS dag_has_import_errors, dag.next_dagrun AS dag_next_dagrun, dag.next_dagrun_data_interval_start AS dag_next_dagrun_data_interval_start, dag.next_dagrun_data_interval_end AS dag_next_dagrun_data_interval_end, dag.next_dagrun_create_after AS dag_next_dagrun_create_after 
+FROM dag 
+WHERE dag.is_paused = 0 AND dag.is_active = 1 AND dag.has_import_errors = 0 AND dag.next_dagrun_create_after <= CURRENT_TIMESTAMP ORDER BY dag.next_dagrun_create_after
+ LIMIT ? OFFSET ?]
+[parameters: (10, 0)]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+2022-11-29 06:39:04,679 INFO - Sending Signals.SIGTERM to group 56786. PIDs of all processes in the group: [56786]
+2022-11-29 06:39:04,680 INFO - Sending the signal Signals.SIGTERM to group 56786
+2022-11-29 06:39:04,977 INFO - Process psutil.Process(pid=56786, status='terminated', exitcode=0, started='06:31:59') (56786) terminated with exit code 0
+2022-11-29 06:39:04,980 INFO - Exited execute loop
+2022-11-29 07:23:38,991 INFO - Starting the scheduler
+2022-11-29 07:23:38,993 INFO - Processing each file at most -1 times
+2022-11-29 07:23:38,999 INFO - Launched DagFileProcessorManager with pid: 59535
+2022-11-29 07:23:39,001 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 07:23:59,501 INFO - Setting next_dagrun for first_dag to 2022-11-29T00:00:00+00:00
+2022-11-29 07:23:59,533 INFO - 1 tasks up for execution:
+	<TaskInstance: first_dag.print_name scheduled__2022-11-28T00:00:00+00:00 [scheduled]>
+2022-11-29 07:23:59,534 INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 1 task instances ready to be queued
+2022-11-29 07:23:59,535 INFO - DAG first_dag has 0/16 running and queued tasks
+2022-11-29 07:23:59,536 INFO - Setting the following tasks to queued state:
+	<TaskInstance: first_dag.print_name scheduled__2022-11-28T00:00:00+00:00 [scheduled]>
+2022-11-29 07:23:59,537 INFO - Sending TaskInstanceKey(dag_id='first_dag', task_id='print_name', run_id='scheduled__2022-11-28T00:00:00+00:00', try_number=1) to executor with priority 1 and queue default
+2022-11-29 07:23:59,538 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'first_dag', 'print_name', 'scheduled__2022-11-28T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/first_dag.py']
+2022-11-29 07:23:59,540 INFO - Executing command: ['airflow', 'tasks', 'run', 'first_dag', 'print_name', 'scheduled__2022-11-28T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/first_dag.py']
+2022-11-29 07:26:40,912 INFO - Executor reports execution of first_dag.print_name run_id=scheduled__2022-11-28T00:00:00+00:00 exited with status success for try_number 1
+2022-11-29 07:26:40,922 INFO - TaskInstance Finished: dag_id=first_dag, task_id=print_name, run_id=scheduled__2022-11-28T00:00:00+00:00, run_start_date=2022-11-29 01:55:30.615928+00:00, run_end_date=2022-11-29 01:56:30.720915+00:00, run_duration=60.104987, state=success, executor_state=success, try_number=1, max_tries=0, job_id=3, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator
+2022-11-29 07:26:40,934 ERROR - DagFileProcessorManager (PID=59535) last sent a heartbeat 161.45 seconds ago! Restarting it
+2022-11-29 07:26:40,944 INFO - Sending Signals.SIGTERM to group 59535. PIDs of all processes in the group: [59535]
+2022-11-29 07:26:40,945 INFO - Sending the signal Signals.SIGTERM to group 59535
+2022-11-29 07:26:41,243 INFO - Process psutil.Process(pid=59535, status='terminated', exitcode=0, started='07:23:38') (59535) terminated with exit code 0
+2022-11-29 07:26:41,250 INFO - Launched DagFileProcessorManager with pid: 59629
+2022-11-29 07:26:44,000 INFO - Marking run <DagRun first_dag @ 2022-11-28 00:00:00+00:00: scheduled__2022-11-28T00:00:00+00:00, externally triggered: False> successful
+2022-11-29 07:26:44,002 INFO - DagRun Finished: dag_id=first_dag, execution_date=2022-11-28 00:00:00+00:00, run_id=scheduled__2022-11-28T00:00:00+00:00, run_start_date=2022-11-29 01:53:59.511034+00:00, run_end_date=2022-11-29 01:56:44.002104+00:00, run_duration=164.49107, state=success, external_trigger=False, run_type=scheduled, data_interval_start=2022-11-28 00:00:00+00:00, data_interval_end=2022-11-29 00:00:00+00:00, dag_hash=893864bb25113cecf67582d9874bddfc
+2022-11-29 07:26:44,004 INFO - Setting next_dagrun for first_dag to 2022-11-29T00:00:00+00:00
+2022-11-29 07:26:44,014 INFO - 1 tasks up for execution:
+	<TaskInstance: first_dag.print_name manual__2022-11-29T01:55:19.669447+00:00 [scheduled]>
+2022-11-29 07:26:44,015 INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 1 task instances ready to be queued
+2022-11-29 07:26:44,016 INFO - DAG first_dag has 0/16 running and queued tasks
+2022-11-29 07:26:44,017 INFO - Setting the following tasks to queued state:
+	<TaskInstance: first_dag.print_name manual__2022-11-29T01:55:19.669447+00:00 [scheduled]>
+2022-11-29 07:26:44,018 INFO - Sending TaskInstanceKey(dag_id='first_dag', task_id='print_name', run_id='manual__2022-11-29T01:55:19.669447+00:00', try_number=1) to executor with priority 1 and queue default
+2022-11-29 07:26:44,019 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'first_dag', 'print_name', 'manual__2022-11-29T01:55:19.669447+00:00', '--local', '--subdir', 'DAGS_FOLDER/first_dag.py']
+2022-11-29 07:26:44,020 INFO - Executing command: ['airflow', 'tasks', 'run', 'first_dag', 'print_name', 'manual__2022-11-29T01:55:19.669447+00:00', '--local', '--subdir', 'DAGS_FOLDER/first_dag.py']
+2022-11-29 07:29:25,449 INFO - Executor reports execution of first_dag.print_name run_id=manual__2022-11-29T01:55:19.669447+00:00 exited with status success for try_number 1
+2022-11-29 07:29:25,458 INFO - TaskInstance Finished: dag_id=first_dag, task_id=print_name, run_id=manual__2022-11-29T01:55:19.669447+00:00, run_start_date=2022-11-29 01:58:15.184330+00:00, run_end_date=2022-11-29 01:59:15.297074+00:00, run_duration=60.112744, state=success, executor_state=success, try_number=1, max_tries=0, job_id=4, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator
+2022-11-29 07:29:25,470 ERROR - DagFileProcessorManager (PID=59629) last sent a heartbeat 161.50 seconds ago! Restarting it
+2022-11-29 07:29:25,482 INFO - Sending Signals.SIGTERM to group 59629. PIDs of all processes in the group: [59629]
+2022-11-29 07:29:25,482 INFO - Sending the signal Signals.SIGTERM to group 59629
+2022-11-29 07:29:25,784 INFO - Process psutil.Process(pid=59629, status='terminated', exitcode=0, started='07:26:41') (59629) terminated with exit code 0
+2022-11-29 07:29:25,791 INFO - Launched DagFileProcessorManager with pid: 59688
+2022-11-29 07:29:25,807 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 07:29:25,810 INFO - Marked 1 SchedulerJob instances as failed
+2022-11-29 07:34:26,925 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 07:39:26,939 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 07:44:28,030 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 07:49:28,704 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 07:54:29,807 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 07:59:30,234 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 08:06:00,969 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 08:11:01,552 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 08:16:02,292 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 08:21:03,081 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 08:26:04,053 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 08:31:04,636 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 08:36:05,433 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 08:41:06,308 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 08:46:07,105 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 08:51:08,061 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 08:56:09,364 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 09:01:10,802 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 09:06:11,737 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 09:11:12,853 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 09:16:12,952 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 09:21:13,513 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 09:26:14,459 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 09:31:15,269 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 09:36:16,362 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 09:41:16,501 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 09:45:01,573 INFO - Setting next_dagrun for demo to 2022-11-29T00:00:00+00:00
+2022-11-29 09:45:01,604 INFO - 1 tasks up for execution:
+	<TaskInstance: demo.demo1 scheduled__2022-11-28T00:00:00+00:00 [scheduled]>
+2022-11-29 09:45:01,606 INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 1 task instances ready to be queued
+2022-11-29 09:45:01,606 INFO - DAG demo has 0/16 running and queued tasks
+2022-11-29 09:45:01,607 INFO - Setting the following tasks to queued state:
+	<TaskInstance: demo.demo1 scheduled__2022-11-28T00:00:00+00:00 [scheduled]>
+2022-11-29 09:45:01,609 INFO - Sending TaskInstanceKey(dag_id='demo', task_id='demo1', run_id='scheduled__2022-11-28T00:00:00+00:00', try_number=1) to executor with priority 2 and queue default
+2022-11-29 09:45:01,609 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'demo', 'demo1', 'scheduled__2022-11-28T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/demo.py']
+2022-11-29 09:45:01,611 INFO - Executing command: ['airflow', 'tasks', 'run', 'demo', 'demo1', 'scheduled__2022-11-28T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/demo.py']
+2022-11-29 09:47:43,064 INFO - Executor reports execution of demo.demo1 run_id=scheduled__2022-11-28T00:00:00+00:00 exited with status success for try_number 1
+2022-11-29 09:47:43,074 INFO - TaskInstance Finished: dag_id=demo, task_id=demo1, run_id=scheduled__2022-11-28T00:00:00+00:00, run_start_date=2022-11-29 04:16:32.758714+00:00, run_end_date=2022-11-29 04:17:32.866661+00:00, run_duration=60.107947, state=success, executor_state=success, try_number=1, max_tries=0, job_id=5, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator
+2022-11-29 09:47:43,087 ERROR - DagFileProcessorManager (PID=59688) last sent a heartbeat 161.53 seconds ago! Restarting it
+2022-11-29 09:47:43,098 INFO - Sending Signals.SIGTERM to group 59688. PIDs of all processes in the group: [59688]
+2022-11-29 09:47:43,099 INFO - Sending the signal Signals.SIGTERM to group 59688
+2022-11-29 09:47:43,440 INFO - Process psutil.Process(pid=59688, status='terminated', exitcode=0, started='07:29:25') (59688) terminated with exit code 0
+2022-11-29 09:47:43,447 INFO - Launched DagFileProcessorManager with pid: 65668
+2022-11-29 09:47:43,463 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 09:47:43,466 INFO - Marked 1 SchedulerJob instances as failed
+2022-11-29 09:47:46,490 INFO - 2 tasks up for execution:
+	<TaskInstance: demo.demo1 manual__2022-11-29T04:16:29.350347+00:00 [scheduled]>
+	<TaskInstance: demo.demo2 scheduled__2022-11-28T00:00:00+00:00 [scheduled]>
+2022-11-29 09:47:46,492 INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 2 task instances ready to be queued
+2022-11-29 09:47:46,492 INFO - DAG demo has 0/16 running and queued tasks
+2022-11-29 09:47:46,493 INFO - DAG demo has 1/16 running and queued tasks
+2022-11-29 09:47:46,493 INFO - Setting the following tasks to queued state:
+	<TaskInstance: demo.demo1 manual__2022-11-29T04:16:29.350347+00:00 [scheduled]>
+	<TaskInstance: demo.demo2 scheduled__2022-11-28T00:00:00+00:00 [scheduled]>
+2022-11-29 09:47:46,495 INFO - Sending TaskInstanceKey(dag_id='demo', task_id='demo1', run_id='manual__2022-11-29T04:16:29.350347+00:00', try_number=1) to executor with priority 2 and queue default
+2022-11-29 09:47:46,496 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'demo', 'demo1', 'manual__2022-11-29T04:16:29.350347+00:00', '--local', '--subdir', 'DAGS_FOLDER/demo.py']
+2022-11-29 09:47:46,496 INFO - Sending TaskInstanceKey(dag_id='demo', task_id='demo2', run_id='scheduled__2022-11-28T00:00:00+00:00', try_number=1) to executor with priority 1 and queue default
+2022-11-29 09:47:46,497 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'demo', 'demo2', 'scheduled__2022-11-28T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/demo.py']
+2022-11-29 09:47:46,499 INFO - Executing command: ['airflow', 'tasks', 'run', 'demo', 'demo1', 'manual__2022-11-29T04:16:29.350347+00:00', '--local', '--subdir', 'DAGS_FOLDER/demo.py']
+2022-11-29 09:50:27,895 INFO - Executing command: ['airflow', 'tasks', 'run', 'demo', 'demo2', 'scheduled__2022-11-28T00:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/demo.py']
+2022-11-29 09:53:09,314 INFO - Executor reports execution of demo.demo1 run_id=manual__2022-11-29T04:16:29.350347+00:00 exited with status success for try_number 1
+2022-11-29 09:53:09,315 INFO - Executor reports execution of demo.demo2 run_id=scheduled__2022-11-28T00:00:00+00:00 exited with status success for try_number 1
+2022-11-29 09:53:09,324 INFO - TaskInstance Finished: dag_id=demo, task_id=demo2, run_id=scheduled__2022-11-28T00:00:00+00:00, run_start_date=2022-11-29 04:21:59.062589+00:00, run_end_date=2022-11-29 04:22:59.159786+00:00, run_duration=60.097197, state=success, executor_state=success, try_number=1, max_tries=0, job_id=7, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator
+2022-11-29 09:53:09,325 INFO - TaskInstance Finished: dag_id=demo, task_id=demo1, run_id=manual__2022-11-29T04:16:29.350347+00:00, run_start_date=2022-11-29 04:19:17.617103+00:00, run_end_date=2022-11-29 04:20:17.716581+00:00, run_duration=60.099478, state=success, executor_state=success, try_number=1, max_tries=0, job_id=6, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator
+2022-11-29 09:53:09,337 ERROR - DagFileProcessorManager (PID=65668) last sent a heartbeat 322.89 seconds ago! Restarting it
+2022-11-29 09:53:09,348 INFO - Sending Signals.SIGTERM to group 65668. PIDs of all processes in the group: [65668]
+2022-11-29 09:53:09,349 INFO - Sending the signal Signals.SIGTERM to group 65668
+2022-11-29 09:53:09,649 INFO - Process psutil.Process(pid=65668, status='terminated', exitcode=0, started='09:47:43') (65668) terminated with exit code 0
+2022-11-29 09:53:09,656 INFO - Launched DagFileProcessorManager with pid: 65765
+2022-11-29 09:53:09,673 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 09:53:09,675 INFO - Marked 1 SchedulerJob instances as failed
+2022-11-29 09:53:11,761 INFO - Marking run <DagRun demo @ 2022-11-28 00:00:00+00:00: scheduled__2022-11-28T00:00:00+00:00, externally triggered: False> successful
+2022-11-29 09:53:11,762 INFO - DagRun Finished: dag_id=demo, execution_date=2022-11-28 00:00:00+00:00, run_id=scheduled__2022-11-28T00:00:00+00:00, run_start_date=2022-11-29 04:23:11.749536+00:00, run_end_date=2022-11-29 04:23:11.762317+00:00, run_duration=0.012781, state=success, external_trigger=False, run_type=scheduled, data_interval_start=2022-11-28 00:00:00+00:00, data_interval_end=2022-11-29 00:00:00+00:00, dag_hash=753c412acd72caab31bbf0dde3091445
+2022-11-29 09:53:11,764 INFO - Setting next_dagrun for demo to 2022-11-29T00:00:00+00:00
+2022-11-29 09:53:11,778 INFO - 1 tasks up for execution:
+	<TaskInstance: demo.demo2 manual__2022-11-29T04:16:29.350347+00:00 [scheduled]>
+2022-11-29 09:53:11,779 INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 1 task instances ready to be queued
+2022-11-29 09:53:11,780 INFO - DAG demo has 0/16 running and queued tasks
+2022-11-29 09:53:11,780 INFO - Setting the following tasks to queued state:
+	<TaskInstance: demo.demo2 manual__2022-11-29T04:16:29.350347+00:00 [scheduled]>
+2022-11-29 09:53:11,782 INFO - Sending TaskInstanceKey(dag_id='demo', task_id='demo2', run_id='manual__2022-11-29T04:16:29.350347+00:00', try_number=1) to executor with priority 1 and queue default
+2022-11-29 09:53:11,783 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'demo', 'demo2', 'manual__2022-11-29T04:16:29.350347+00:00', '--local', '--subdir', 'DAGS_FOLDER/demo.py']
+2022-11-29 09:53:11,784 INFO - Executing command: ['airflow', 'tasks', 'run', 'demo', 'demo2', 'manual__2022-11-29T04:16:29.350347+00:00', '--local', '--subdir', 'DAGS_FOLDER/demo.py']
+2022-11-29 09:55:53,078 INFO - Executor reports execution of demo.demo2 run_id=manual__2022-11-29T04:16:29.350347+00:00 exited with status success for try_number 1
+2022-11-29 09:55:53,087 INFO - TaskInstance Finished: dag_id=demo, task_id=demo2, run_id=manual__2022-11-29T04:16:29.350347+00:00, run_start_date=2022-11-29 04:24:42.815230+00:00, run_end_date=2022-11-29 04:25:42.919648+00:00, run_duration=60.104418, state=success, executor_state=success, try_number=1, max_tries=0, job_id=8, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator
+2022-11-29 09:55:53,099 ERROR - DagFileProcessorManager (PID=65765) last sent a heartbeat 161.36 seconds ago! Restarting it
+2022-11-29 09:55:53,115 INFO - Sending Signals.SIGTERM to group 65765. PIDs of all processes in the group: [65765]
+2022-11-29 09:55:53,115 INFO - Sending the signal Signals.SIGTERM to group 65765
+2022-11-29 09:55:53,374 INFO - Process psutil.Process(pid=65765, status='terminated', exitcode=0, started='09:53:09') (65765) terminated with exit code 0
+2022-11-29 09:55:53,381 INFO - Launched DagFileProcessorManager with pid: 65795
+2022-11-29 09:55:55,339 INFO - Marking run <DagRun demo @ 2022-11-29 04:16:29.350347+00:00: manual__2022-11-29T04:16:29.350347+00:00, externally triggered: True> successful
+2022-11-29 09:55:55,340 INFO - DagRun Finished: dag_id=demo, execution_date=2022-11-29 04:16:29.350347+00:00, run_id=manual__2022-11-29T04:16:29.350347+00:00, run_start_date=2022-11-29 04:17:46.458680+00:00, run_end_date=2022-11-29 04:25:55.340525+00:00, run_duration=488.881845, state=success, external_trigger=True, run_type=manual, data_interval_start=2022-11-28 00:00:00+00:00, data_interval_end=2022-11-29 00:00:00+00:00, dag_hash=753c412acd72caab31bbf0dde3091445
+2022-11-29 09:55:55,342 INFO - Setting next_dagrun for demo to 2022-11-29T00:00:00+00:00
+2022-11-29 09:58:10,119 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 10:02:13,517 INFO - Exiting gracefully upon receiving signal 15
+2022-11-29 10:02:13,808 INFO - Sending Signals.SIGTERM to group 65795. PIDs of all processes in the group: []
+2022-11-29 10:02:13,809 INFO - Sending the signal Signals.SIGTERM to group 65795
+2022-11-29 10:02:13,809 INFO - Sending the signal Signals.SIGTERM to process 65795 as process group is missing.
+2022-11-29 10:02:13,819 INFO - Sending Signals.SIGTERM to group 65795. PIDs of all processes in the group: []
+2022-11-29 10:02:13,819 INFO - Sending the signal Signals.SIGTERM to group 65795
+2022-11-29 10:02:13,819 INFO - Sending the signal Signals.SIGTERM to process 65795 as process group is missing.
+2022-11-29 10:02:13,820 INFO - Exited execute loop
+2022-11-29 10:37:08,110 INFO - Starting the scheduler
+2022-11-29 10:37:08,111 INFO - Processing each file at most -1 times
+2022-11-29 10:37:08,118 INFO - Launched DagFileProcessorManager with pid: 66607
+2022-11-29 10:37:08,120 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 10:42:09,050 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 10:47:09,810 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 10:52:10,898 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 10:57:12,221 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 11:02:12,664 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 11:07:13,094 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 11:12:14,415 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 11:17:15,713 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 11:22:15,856 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 11:27:16,309 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 11:32:16,801 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 11:51:33,927 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 11:56:34,951 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 12:01:35,976 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 13:02:17,324 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 13:07:19,014 INFO - Resetting orphaned tasks for active dag runs
+2022-11-29 13:07:47,697 INFO - Exiting gracefully upon receiving signal 15
+2022-11-29 13:07:47,988 INFO - Sending Signals.SIGTERM to group 66607. PIDs of all processes in the group: []
+2022-11-29 13:07:47,989 INFO - Sending the signal Signals.SIGTERM to group 66607
+2022-11-29 13:07:47,989 INFO - Sending the signal Signals.SIGTERM to process 66607 as process group is missing.
+2022-11-29 13:07:48,002 INFO - Sending Signals.SIGTERM to group 66607. PIDs of all processes in the group: []
+2022-11-29 13:07:48,003 INFO - Sending the signal Signals.SIGTERM to group 66607
+2022-11-29 13:07:48,003 INFO - Sending the signal Signals.SIGTERM to process 66607 as process group is missing.
+2022-11-29 13:07:48,004 INFO - Exited execute loop

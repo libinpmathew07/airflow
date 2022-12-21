@@ -1,0 +1,20 @@
+/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/configuration.py:276: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if StrictVersion(sqlite3.sqlite_version) < StrictVersion(min_sqlite_version):
+Traceback (most recent call last):
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/bin/airflow", line 8, in <module>
+    sys.exit(main())
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/__main__.py", line 48, in main
+    args.func(args)
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/cli/commands/webserver_command.py", line 482, in webserver
+    monitor_gunicorn(gunicorn_master_proc.pid)
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/cli/commands/webserver_command.py", line 447, in monitor_gunicorn
+    GunicornMonitor(
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/cli/commands/webserver_command.py", line 214, in start
+    sleep(1)
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/cli/commands/webserver_command.py", line 437, in kill_proc
+    if gunicorn_master_proc.poll() is not None:
+AttributeError: 'Process' object has no attribute 'poll'

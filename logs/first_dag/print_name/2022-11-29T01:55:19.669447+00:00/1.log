@@ -1,0 +1,25 @@
+[2022-11-29 07:28:15,184] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: first_dag.print_name manual__2022-11-29T01:55:19.669447+00:00 [None]>
+[2022-11-29 07:28:15,189] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: first_dag.print_name manual__2022-11-29T01:55:19.669447+00:00 [None]>
+[2022-11-29 07:28:15,189] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-29 07:28:15,189] {taskinstance.py:1239} INFO - Starting attempt 1 of 1
+[2022-11-29 07:28:15,189] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-29 07:28:15,199] {taskinstance.py:1259} INFO - Executing <Task(PythonOperator): print_name> on 2022-11-29 01:55:19.669447+00:00
+[2022-11-29 07:28:15,202] {standard_task_runner.py:52} INFO - Started process 59675 to run task
+[2022-11-29 07:28:15,207] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'first_dag', 'print_name', 'manual__2022-11-29T01:55:19.669447+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/first_dag.py', '--cfg-path', '/var/folders/jd/dj9qbrrx6jdc6f5lwwg0h7tm5np56x/T/tmpwxn8f854', '--error-file', '/var/folders/jd/dj9qbrrx6jdc6f5lwwg0h7tm5np56x/T/tmpedmdt1en']
+[2022-11-29 07:28:15,209] {standard_task_runner.py:77} INFO - Job 4: Subtask print_name
+[2022-11-29 07:28:45,249] {logging_mixin.py:109} INFO - Running <TaskInstance: first_dag.print_name manual__2022-11-29T01:55:19.669447+00:00 [running]> on host LM0002893
+[2022-11-29 07:29:15,292] {taskinstance.py:1424} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=first_dag
+AIRFLOW_CTX_TASK_ID=print_name
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-29T01:55:19.669447+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-29T01:55:19.669447+00:00
+[2022-11-29 07:29:15,292] {logging_mixin.py:109} INFO - printing name
+[2022-11-29 07:29:15,293] {python.py:175} INFO - Done. Returned value was: None
+[2022-11-29 07:29:15,297] {taskinstance.py:1267} INFO - Marking task as SUCCESS. dag_id=first_dag, task_id=print_name, execution_date=20221129T015519, start_date=20221129T015815, end_date=20221129T015915
+[2022-11-29 07:29:25,279] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-11-29 07:29:25,291] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-11-29 07:29:25,297] {dagrun.py:545} INFO - Marking run <DagRun first_dag @ 2022-11-29 01:55:19.669447+00:00: manual__2022-11-29T01:55:19.669447+00:00, externally triggered: True> successful
+[2022-11-29 07:29:25,298] {dagrun.py:590} INFO - DagRun Finished: dag_id=first_dag, execution_date=2022-11-29 01:55:19.669447+00:00, run_id=manual__2022-11-29T01:55:19.669447+00:00, run_start_date=2022-11-29 01:56:43.983071+00:00, run_end_date=2022-11-29 01:59:25.298191+00:00, run_duration=161.31512, state=success, external_trigger=True, run_type=manual, data_interval_start=2022-11-28 00:00:00+00:00, data_interval_end=2022-11-29 00:00:00+00:00, dag_hash=893864bb25113cecf67582d9874bddfc

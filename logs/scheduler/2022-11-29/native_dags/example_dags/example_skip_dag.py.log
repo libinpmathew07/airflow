@@ -1,0 +1,42 @@
+[2022-11-29 06:32:32,172] {processor.py:163} INFO - Started process (PID=56839) to work on /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-29 06:32:32,173] {processor.py:642} INFO - Processing file /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-29 06:32:32,173] {logging_mixin.py:109} INFO - [2022-11-29 06:32:32,173] {dagbag.py:500} INFO - Filling up the DagBag from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-29 06:32:32,195] {processor.py:654} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-29 06:32:32,206] {logging_mixin.py:109} INFO - [2022-11-29 06:32:32,206] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-29 06:32:32,212] {logging_mixin.py:109} INFO - [2022-11-29 06:32:32,212] {dag.py:2935} INFO - Setting next_dagrun for example_skip_dag to 2022-11-28T01:02:32.212515+00:00
+[2022-11-29 06:32:32,217] {processor.py:171} INFO - Processing /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.045 seconds
+[2022-11-29 06:33:56,602] {processor.py:163} INFO - Started process (PID=57069) to work on /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-29 06:33:56,603] {processor.py:642} INFO - Processing file /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-29 06:33:56,603] {logging_mixin.py:109} INFO - [2022-11-29 06:33:56,603] {dagbag.py:500} INFO - Filling up the DagBag from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-29 06:33:56,634] {processor.py:654} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-29 06:33:56,651] {logging_mixin.py:109} INFO - [2022-11-29 06:33:56,651] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-29 06:33:56,659] {logging_mixin.py:109} INFO - [2022-11-29 06:33:56,659] {dag.py:2935} INFO - Setting next_dagrun for example_skip_dag to 2022-11-28T01:03:56.659716+00:00
+[2022-11-29 06:33:56,666] {processor.py:171} INFO - Processing /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.064 seconds
+[2022-11-29 06:35:19,878] {processor.py:163} INFO - Started process (PID=57136) to work on /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-29 06:35:19,879] {processor.py:642} INFO - Processing file /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-29 06:35:19,879] {logging_mixin.py:109} INFO - [2022-11-29 06:35:19,879] {dagbag.py:500} INFO - Filling up the DagBag from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-29 06:35:19,910] {processor.py:654} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-29 06:35:19,927] {logging_mixin.py:109} INFO - [2022-11-29 06:35:19,927] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-29 06:35:19,936] {logging_mixin.py:109} INFO - [2022-11-29 06:35:19,936] {dag.py:2935} INFO - Setting next_dagrun for example_skip_dag to 2022-11-28T01:05:19.936360+00:00
+[2022-11-29 06:35:19,943] {processor.py:171} INFO - Processing /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.065 seconds
+[2022-11-29 06:36:32,514] {processor.py:163} INFO - Started process (PID=57184) to work on /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-29 06:36:32,515] {processor.py:642} INFO - Processing file /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-29 06:36:32,515] {logging_mixin.py:109} INFO - [2022-11-29 06:36:32,515] {dagbag.py:500} INFO - Filling up the DagBag from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-29 06:36:32,548] {processor.py:654} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-29 06:36:32,564] {logging_mixin.py:109} INFO - [2022-11-29 06:36:32,564] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-29 06:36:32,573] {logging_mixin.py:109} INFO - [2022-11-29 06:36:32,573] {dag.py:2935} INFO - Setting next_dagrun for example_skip_dag to 2022-11-28T01:06:32.573016+00:00
+[2022-11-29 06:36:32,579] {processor.py:171} INFO - Processing /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.066 seconds
+[2022-11-29 06:37:49,595] {processor.py:163} INFO - Started process (PID=57235) to work on /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-29 06:37:49,596] {processor.py:642} INFO - Processing file /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-29 06:37:49,597] {logging_mixin.py:109} INFO - [2022-11-29 06:37:49,597] {dagbag.py:500} INFO - Filling up the DagBag from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-29 06:37:49,622] {processor.py:654} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-29 06:37:49,635] {logging_mixin.py:109} INFO - [2022-11-29 06:37:49,635] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-29 06:37:49,641] {logging_mixin.py:109} INFO - [2022-11-29 06:37:49,641] {dag.py:2935} INFO - Setting next_dagrun for example_skip_dag to 2022-11-28T01:07:49.641809+00:00
+[2022-11-29 06:37:49,647] {processor.py:171} INFO - Processing /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.052 seconds
+[2022-11-29 06:38:55,384] {processor.py:163} INFO - Started process (PID=57270) to work on /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-29 06:38:55,384] {processor.py:642} INFO - Processing file /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2022-11-29 06:38:55,384] {logging_mixin.py:109} INFO - [2022-11-29 06:38:55,384] {dagbag.py:500} INFO - Filling up the DagBag from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-29 06:38:55,403] {processor.py:654} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py
+[2022-11-29 06:38:55,414] {logging_mixin.py:109} INFO - [2022-11-29 06:38:55,414] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-29 06:38:55,419] {logging_mixin.py:109} INFO - [2022-11-29 06:38:55,419] {dag.py:2935} INFO - Setting next_dagrun for example_skip_dag to 2022-11-28T01:08:55.419126+00:00
+[2022-11-29 06:38:55,424] {processor.py:171} INFO - Processing /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py took 0.041 seconds

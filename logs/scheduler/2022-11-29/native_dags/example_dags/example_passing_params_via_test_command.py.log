@@ -1,0 +1,107 @@
+[2022-11-29 06:32:38,883] {processor.py:163} INFO - Started process (PID=56847) to work on /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-11-29 06:32:38,883] {processor.py:642} INFO - Processing file /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-11-29 06:32:38,884] {logging_mixin.py:109} INFO - [2022-11-29 06:32:38,883] {dagbag.py:500} INFO - Filling up the DagBag from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-11-29 06:32:38,919] {processor.py:654} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-11-29 06:32:38,931] {logging_mixin.py:109} INFO - [2022-11-29 06:32:38,931] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-29 06:32:38,942] {logging_mixin.py:109} INFO - [2022-11-29 06:32:38,942] {dag.py:2935} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-11-29T01:01:00+00:00
+[2022-11-29 06:32:38,947] {processor.py:171} INFO - Processing /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.064 seconds
+[2022-11-29 06:34:04,417] {processor.py:163} INFO - Started process (PID=57072) to work on /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-11-29 06:34:04,417] {processor.py:642} INFO - Processing file /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-11-29 06:34:04,418] {logging_mixin.py:109} INFO - [2022-11-29 06:34:04,417] {dagbag.py:500} INFO - Filling up the DagBag from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-11-29 06:34:04,464] {processor.py:654} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-11-29 06:34:04,479] {logging_mixin.py:109} INFO - [2022-11-29 06:34:04,479] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-29 06:34:04,493] {logging_mixin.py:109} INFO - [2022-11-29 06:34:04,493] {dag.py:2935} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-11-29T01:03:00+00:00
+[2022-11-29 06:34:04,501] {processor.py:171} INFO - Processing /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.085 seconds
+[2022-11-29 06:35:27,288] {processor.py:163} INFO - Started process (PID=57140) to work on /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-11-29 06:35:27,290] {processor.py:642} INFO - Processing file /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-11-29 06:35:27,290] {logging_mixin.py:109} INFO - [2022-11-29 06:35:27,290] {dagbag.py:500} INFO - Filling up the DagBag from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-11-29 06:35:27,337] {processor.py:654} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-11-29 06:35:27,353] {logging_mixin.py:109} INFO - [2022-11-29 06:35:27,353] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-29 06:35:27,366] {logging_mixin.py:109} INFO - [2022-11-29 06:35:27,366] {dag.py:2935} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-11-29T01:04:00+00:00
+[2022-11-29 06:35:27,374] {processor.py:171} INFO - Processing /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.086 seconds
+[2022-11-29 06:36:39,073] {processor.py:163} INFO - Started process (PID=57187) to work on /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-11-29 06:36:39,074] {processor.py:642} INFO - Processing file /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-11-29 06:36:39,074] {logging_mixin.py:109} INFO - [2022-11-29 06:36:39,074] {dagbag.py:500} INFO - Filling up the DagBag from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-11-29 06:36:39,121] {processor.py:654} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-11-29 06:36:39,137] {logging_mixin.py:109} INFO - [2022-11-29 06:36:39,137] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-29 06:36:39,149] {logging_mixin.py:109} INFO - [2022-11-29 06:36:39,149] {dag.py:2935} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-11-29T01:05:00+00:00
+[2022-11-29 06:36:39,157] {processor.py:171} INFO - Processing /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.084 seconds
+[2022-11-29 06:37:54,889] {processor.py:163} INFO - Started process (PID=57238) to work on /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-11-29 06:37:54,891] {processor.py:642} INFO - Processing file /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-11-29 06:37:54,891] {logging_mixin.py:109} INFO - [2022-11-29 06:37:54,891] {dagbag.py:500} INFO - Filling up the DagBag from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-11-29 06:37:54,930] {processor.py:654} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-11-29 06:37:54,940] {logging_mixin.py:109} INFO - [2022-11-29 06:37:54,940] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-29 06:37:54,948] {logging_mixin.py:109} INFO - [2022-11-29 06:37:54,948] {dag.py:2935} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2022-11-29T01:06:00+00:00
+[2022-11-29 06:37:54,953] {processor.py:171} INFO - Processing /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 0.064 seconds
+[2022-11-29 06:39:01,536] {processor.py:163} INFO - Started process (PID=57274) to work on /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-11-29 06:39:01,537] {processor.py:642} INFO - Processing file /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2022-11-29 06:39:01,537] {logging_mixin.py:109} INFO - [2022-11-29 06:39:01,537] {dagbag.py:500} INFO - Filling up the DagBag from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-11-29 06:39:01,643] {processor.py:654} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2022-11-29 06:39:01,804] {logging_mixin.py:109} INFO - [2022-11-29 06:39:01,804] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-29 06:39:02,050] {logging_mixin.py:109} INFO - [2022-11-29 06:39:02,050] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-29 06:39:02,638] {logging_mixin.py:109} INFO - [2022-11-29 06:39:02,638] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-11-29 06:39:02,639] {processor.py:174} ERROR - Got an exception! Propagating...
+Traceback (most recent call last):
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such column: dag.last_parsed_time
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/dag_processing/processor.py", line 165, in _run_file_processor
+    result: Tuple[int, int] = dag_file_processor.process_file(
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/dag_processing/processor.py", line 663, in process_file
+    dagbag.sync_to_db()
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 608, in sync_to_db
+    for attempt in run_with_db_retries(logger=self.log):
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/tenacity/__init__.py", line 382, in __iter__
+    do = self.iter(retry_state=retry_state)
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/tenacity/__init__.py", line 360, in iter
+    raise retry_exc.reraise()
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/tenacity/__init__.py", line 193, in reraise
+    raise self.last_attempt.result()
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/concurrent/futures/_base.py", line 439, in result
+    return self.__get_result()
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/concurrent/futures/_base.py", line 391, in __get_result
+    raise self._exception
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/dagbag.py", line 622, in sync_to_db
+    DAG.bulk_write_to_db(self.dags.values(), session=session)
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/utils/session.py", line 67, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/airflow/models/dag.py", line 2404, in bulk_write_to_db
+    orm_dags: List[DagModel] = with_row_locks(query, of=DagModel, session=session).all()
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/orm/query.py", line 3373, in all
+    return list(self)
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/Users/libin3.mathew/opt/anaconda3/envs/airflow_env/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such column: dag.last_parsed_time
+[SQL: SELECT dag.dag_id AS dag_dag_id, dag.root_dag_id AS dag_root_dag_id, dag.is_paused AS dag_is_paused, dag.is_subdag AS dag_is_subdag, dag.is_active AS dag_is_active, dag.last_parsed_time AS dag_last_parsed_time, dag.last_pickled AS dag_last_pickled, dag.last_expired AS dag_last_expired, dag.scheduler_lock AS dag_scheduler_lock, dag.pickle_id AS dag_pickle_id, dag.fileloc AS dag_fileloc, dag.owners AS dag_owners, dag.description AS dag_description, dag.default_view AS dag_default_view, dag.schedule_interval AS dag_schedule_interval, dag.max_active_tasks AS dag_max_active_tasks, dag.max_active_runs AS dag_max_active_runs, dag.has_task_concurrency_limits AS dag_has_task_concurrency_limits, dag.has_import_errors AS dag_has_import_errors, dag.next_dagrun AS dag_next_dagrun, dag.next_dagrun_data_interval_start AS dag_next_dagrun_data_interval_start, dag.next_dagrun_data_interval_end AS dag_next_dagrun_data_interval_end, dag.next_dagrun_create_after AS dag_next_dagrun_create_after, dag_tag_1.name AS dag_tag_1_name, dag_tag_1.dag_id AS dag_tag_1_dag_id 
+FROM dag LEFT OUTER JOIN dag_tag AS dag_tag_1 ON dag.dag_id = dag_tag_1.dag_id 
+WHERE dag.dag_id IN (?)]
+[parameters: ('example_passing_params_via_test_command',)]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
